@@ -1,8 +1,14 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import Grid from './styled/Grid.styled';
 
 const Card = styled.div`
   border: 1px solid gray;
+  box-shadow: ${({ $special }) => ($special ? '5px 5px 15px gray' : 'none')};
+  border: ${({ $special }) => ($special ? '3px solid tomato' : '1px solid gray')};
+
+  p {
+    color: indigo;
+  }
 `;
 
 const Image = styled.img`
@@ -67,7 +73,7 @@ export default function TourSection() {
             <MyButton>Buy tickets</MyButton>
           </InfoBlock>
         </Card>
-        <Card>
+        <Card $special>
           <Image src='/img/newyork.jpg' />
           <InfoBlock>
             <CardTitle>New York</CardTitle>
