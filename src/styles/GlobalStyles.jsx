@@ -1,9 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+
+html {
+  --main-color: #007bff
+}
+
 * {
   box-sizing: border-box;
 }
+
+
 
 body {
   margin: 0;
