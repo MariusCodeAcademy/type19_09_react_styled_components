@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import './styles/App.css';
 import GlobalStyles from './styles/GlobalStyles';
 import TourSection from './components/TourSection';
+import TeamSection from './components/Team/TeamSection';
 
 const MainTitle = styled.h1`
   text-transform: uppercase;
@@ -12,7 +13,8 @@ const MainTitle = styled.h1`
 export default function App() {
   return (
     <div className='App container'>
-      <TourSection />
+      {/* <TourSection /> */}
+      <TeamSection />
       <GlobalStyles />
       {/* <MainTitle>Hello, world!</MainTitle>
       <hr />

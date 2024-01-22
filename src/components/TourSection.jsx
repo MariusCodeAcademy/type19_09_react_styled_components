@@ -7,7 +7,7 @@ const Card = styled.div`
   border: ${({ $special }) => ($special ? '3px solid tomato' : '1px solid gray')};
 
   p {
-    color: indigo;
+    color: tomato;
   }
 `;
 
@@ -30,6 +30,7 @@ const CardDate = styled.p`
 `;
 const CardText = styled.p`
   line-height: 1.5;
+  color: green;
 `;
 
 const MyButton = styled.button`
