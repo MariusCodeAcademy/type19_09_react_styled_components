@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Kaiara Spencer",
+    "position": "Product Manager",
+    "imageSrc": "images/person_5.jpg",
+    "socialLinks": [
+      { "platform": "Facebook", "link": "#" },
+      { "platform": "Twitter", "link": "#" },
+      { "platform": "LinkedIn", "link": "#" },
+      { "platform": "Instagram", "link": "#" }
+    ]
+  },
+  {
+    "name": "Dave Simpson",
+    "position": "Product Manager",
+    "imageSrc": "images/person_6.jpg",
+    "socialLinks": [
+      { "platform": "Facebook", "link": "#" },
+      { "platform": "Twitter", "link": "#" },
+      { "platform": "LinkedIn", "link": "#" },
+      { "platform": "Instagram", "link": "#" }
+    ]
+  },
+  {
+    "name": "Ben Thompson",
+    "position": "Product Manager",
+    "imageSrc": "images/person_7.jpg",
+    "socialLinks": [
+      { "platform": "Facebook", "link": "#" },
+      { "platform": "Twitter", "link": "#" },
+      { "platform": "LinkedIn", "link": "#" },
+      { "platform": "Instagram", "link": "#" }
+    ]
+  },
+  {
+    "name": "Kyla Stewart",
+    "position": "Product Manager",
+    "imageSrc": "images/person_8.jpg",
+    "socialLinks": [
+      { "platform": "Facebook", "link": "#" },
+      { "platform": "Twitter", "link": "#" },
+      { "platform": "LinkedIn", "link": "#" },
+      { "platform": "Instagram", "link": "#" }
+    ]
+  },
+  {
+    "name": "Kaiara Spencer",
+    "position": "Product Manager",
+    "imageSrc": "images/person_1.jpg",
+    "socialLinks": [
+      { "platform": "Facebook", "link": "#" },
+      { "platform": "Twitter", "link": "#" },
+      { "platform": "LinkedIn", "link": "#" },
+      { "platform": "Instagram", "link": "#" }
+    ]
+  },
+  {
+    "name": "Dave Simpson",
+    "position": "Product Manager",
+    "imageSrc": "images/person_2.jpg",
+    "socialLinks": [
+      { "platform": "Facebook", "link": "#" },
+      { "platform": "Twitter", "link": "#" },
+      { "platform": "LinkedIn", "link": "#" },
+      { "platform": "Instagram", "link": "#" }
+    ]
+  },
+  {
+    "name": "Ben Thompson",
+    "position": "Product Manager",
+    "imageSrc": "images/person_3.jpg",
+    "socialLinks": [
+      { "platform": "Facebook", "link": "#" },
+      { "platform": "Twitter", "link": "#" },
+      { "platform": "LinkedIn", "link": "#" },
+      { "platform": "Instagram", "link": "#" }
+    ]
+  },
+  {
+    "name": "Chris Stewart",
+    "position": "Product Manager",
+    "imageSrc": "images/person_4.jpg",
+    "socialLinks": [
+      { "platform": "Facebook", "link": "#" },
+      { "platform": "Twitter", "link": "#" },
+      { "platform": "LinkedIn", "link": "#" },
+      { "platform": "Instagram", "link": "#" }
+    ]
+  }
+]
