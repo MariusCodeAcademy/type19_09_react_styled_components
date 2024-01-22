@@ -4,6 +4,12 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 const Card = styled.div`
@@ -62,6 +68,24 @@ export default function TourSection() {
     <div>
       <h2>TourSection</h2>
       <Grid>
+        <Card>
+          <Image src='/img/newyork.jpg' />
+          <InfoBlock>
+            <CardTitle>New York</CardTitle>
+            <CardDate>Fri 27 Nov 2016</CardDate>
+            <CardText>Praesent tincidunt sed tellus ut rutrum sed vitae justo. </CardText>
+            <MyButton>Buy tickets</MyButton>
+          </InfoBlock>
+        </Card>
+        <Card>
+          <Image src='/img/newyork.jpg' />
+          <InfoBlock>
+            <CardTitle>New York</CardTitle>
+            <CardDate>Fri 27 Nov 2016</CardDate>
+            <CardText>Praesent tincidunt sed tellus ut rutrum sed vitae justo. </CardText>
+            <MyButton>Buy tickets</MyButton>
+          </InfoBlock>
+        </Card>
         <Card>
           <Image src='/img/newyork.jpg' />
           <InfoBlock>
